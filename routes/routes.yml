@@ -6,3 +6,6 @@
     second:
       path: /loja/**
       url: http://localhost:8080
+    third: 
+      path: /transportador/**
+      url: http://localhost:8083
