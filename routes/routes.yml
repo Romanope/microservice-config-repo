@@ -3,3 +3,6 @@
     first:
       path: /fornecedor/**
       url: http://localhost:8081
+    second:
+      path: /loja/**
+      url: http://localhost:8080
