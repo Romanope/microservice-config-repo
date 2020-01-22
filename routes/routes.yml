@@ -1,11 +1,5 @@
-spring:
-  cloud:
-    discovery:
-      enabled: false
-    gateway:
-      routes:
-        ########## Fornecedor
-        - id: fornecedor
-          uri: localhost:8081
-          predicates:
-            - Path=/fornecedor/**
+ zuul:
+  routes:
+    first:
+      path: /fornecedor/**
+      url: http://localhost:8081
