@@ -1,17 +1,3 @@
-management:
-  endpoints:
-    web:
-      exposure:
-        include: health, refresh
-
-health:
-  config:
-    enabled: false
-
-logging:
-  level:
-    org.springframework.cloud.gateway: info
-
 spring:
   cloud:
     discovery:
