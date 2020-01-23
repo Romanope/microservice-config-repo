@@ -2,7 +2,7 @@ spring:
   cloud:
     gateway:
       routes:
-      - id: microservice2-ws-soсkjs
+      - id: fornecedor_route
         predicates:
         - Path=/fornecedores/**
         uri: "http://localhost:8081"
