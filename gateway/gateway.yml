@@ -4,5 +4,13 @@ spring:
       routes:
       - id: fornecedor_route
         predicates:
-        - Path=/fornecedores/**
+        - Path=/fornecedor/**
         uri: "http://localhost:8081"
+      - id: transportador_route
+        predicates:
+        - Path=/transportador/**
+        uri: "http://localhost:8083"
+      - id: loja_route
+        predicates:
+        - Path=/loja/**
+        uri: "http://localhost:8080"
