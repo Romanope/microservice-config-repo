@@ -14,3 +14,7 @@ spring:
         predicates:
         - Path=/loja/**
         uri: "http://localhost:8080"
+      - id: route_credential
+        predicates:
+        - Path=/credentials/**
+        uri: "http://localhost:8080"
