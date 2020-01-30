@@ -14,7 +14,3 @@ spring:
         predicates:
         - Path=/loja/**
         uri: "http://localhost:8080"
-      - id: carro_route
-        predicates:
-        - Path=/carro/**
-        uri: "http://localhost:8080"
